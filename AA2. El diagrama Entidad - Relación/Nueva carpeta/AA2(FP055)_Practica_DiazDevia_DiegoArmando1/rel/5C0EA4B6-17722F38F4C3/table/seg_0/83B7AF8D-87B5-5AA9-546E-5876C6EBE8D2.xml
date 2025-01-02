@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83B7AF8D-87B5-5AA9-546E-5876C6EBE8D2" schemaObject="1605402D-5C81-6C00-66D5-D7CA361503AF" name="ACTIVIDADESPERMITIDAS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>EA06F226-50B0-0772-0462-282DEFB0AB2E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPLAN" id="0B38E918-9E6C-4072-0814-CE4DA357850B">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>A3033BAB-784D-67CC-E88E-7ACA4AE9BCCF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B40AA04-0B69-CFA3-732A-E99BC1B4171E" referredColumn="4632C9A1-0F68-1600-6088-80466D49B5C7"/>
+</associations>
+</Column>
+<Column name="IDACTIVIDAD" id="D57F1605-AB95-084C-B170-94B3FE0EC903">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>14B9AD77-1F79-4614-A84B-B34CF7FB2BCC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20918D02-D669-8E4D-95F9-A33DA11644F9" name="PK_ACTIVIDADESPERMITIDAS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>C91A4901-56DA-6A4F-08DF-16DAB61D2B49</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B38E918-9E6C-4072-0814-CE4DA357850B"/>
+<colUsage columnID="D57F1605-AB95-084C-B170-94B3FE0EC903"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A81B9F5-71E1-F746-F458-DCDEBACE9542" schemaObject="1605402D-5C81-6C00-66D5-D7CA361503AF" name="PK_ACTIVIDADESPERMITIDAS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>D930BE45-59EA-6AE7-D8A3-0AF2279AEC93</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B38E918-9E6C-4072-0814-CE4DA357850B"/>
+<colUsage columnID="D57F1605-AB95-084C-B170-94B3FE0EC903"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB250142-16BA-35B2-5C2E-B2FD914B56E1" name="FK_ACTIVIDAD_PLAN">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B38E918-9E6C-4072-0814-CE4DA357850B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F70E7EC-9415-3E90-4AC5-445CE4DE1605" name="FK_ACTIVIDAD_ACTIVIDADES">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D57F1605-AB95-084C-B170-94B3FE0EC903"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

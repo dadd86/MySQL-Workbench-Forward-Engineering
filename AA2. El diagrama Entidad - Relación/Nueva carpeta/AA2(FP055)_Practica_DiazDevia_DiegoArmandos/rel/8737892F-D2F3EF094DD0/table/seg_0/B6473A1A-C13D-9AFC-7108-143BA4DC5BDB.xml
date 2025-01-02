@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6473A1A-C13D-9AFC-7108-143BA4DC5BDB" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="EMPRESAS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>BC7D0C7E-17D6-08F7-423C-BC611CDA28EE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIF" id="2CC820BF-D2A4-C1A1-09F8-0E4B4A0DF4EC">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>FAC37684-956C-11D0-CB03-787C6B1A37BC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBREEMPRESA" id="417D3632-91D3-7960-DB7D-30BB9C1471AE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>FDE8E409-147B-9047-6913-F3A89C13AA6A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONOCONTACTO" id="B02F5976-F0FC-467E-1D38-18763D9FFFF5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>B984A486-E747-E557-B9DA-205F16E0BE4E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONACONTACTO" id="73D0D040-1185-647E-B2D6-16C591E04EF3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>1A759C8D-9DB5-BCFF-31EE-9D6E92E2BE7C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAILCONTACTO" id="3CDCAEF7-D378-A321-0010-858BF5DBE090">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>629973FF-66B9-5698-77F0-6911651ACAD4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAINICIOCONVENIO" id="2E6B4013-BE79-870E-EC3C-EACB84CEBBD2">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>E3E1EE92-7E5B-C020-3160-A6EC01B8F2DC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAFINCONVENIO" id="89935AAE-F603-7091-3F27-4E23965A75DC">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>2E8D503C-E870-DB88-FE53-FC7222793B14</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B72ADEE-3242-FCFC-BDCF-E702DD3783A6" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="EMPRESAS_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>2BB57320-1C12-3A78-63CD-B3D2ADBF4BF0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CC820BF-D2A4-C1A1-09F8-0E4B4A0DF4EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,234 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=Cp1252" />
+<script src="TRG_CHECK_OVERLAP/report.js" type="text/javascript"></script>
+<link href="TRG_CHECK_OVERLAP/report.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="banner">
+<table width="98%"><tr>
+<td><h2 class="banner">TRG_CHECK_OVERLAP</h2></td>
+</tr></table></div>
+<div id="maintabs">
+<div class="currentmaintab" onclick="onSelectMainTab(this, 0)">
+<div>
+<p>Details</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 1)">
+<div>
+<p>Grants</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 2)">
+<div>
+<p>References</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 3)">
+<div>
+<p>Dependencies</p>
+</div>
+</div>
+<div class="maintab" onclick="onSelectMainTab(this, 4)">
+<div>
+<p>Code</p>
+</div>
+</div>
+</div>
+<br/>
+<div id="masterreports">
+<div id="Master.0">
+<div class="currentmasterreport">
+<table id="Table.0" cellpadding="0" cellspacing="0" summary="">
+<th>NAME</th>
+<th>VALUE</th>
+</tr>
+<tr>
+<td>OWNER</td>
+<td>HR</td>
+</tr>
+<tr>
+<td>OBJECT_NAME</td>
+<td>TRG_CHECK_OVERLAP</td>
+</tr>
+<tr>
+<td>SUBOBJECT_NAME</td>
+<td>null</td>
+</tr>
+<tr>
+<td>OBJECT_ID</td>
+<td>75846</td>
+</tr>
+<tr>
+<td>DATA_OBJECT_ID</td>
+<td>null</td>
+</tr>
+<tr>
+<td>OBJECT_TYPE</td>
+<td>TRIGGER</td>
+</tr>
+<tr>
+<td>CREATED</td>
+<td>05/11/23</td>
+</tr>
+<tr>
+<td>LAST_DDL_TIME</td>
+<td>05/11/23</td>
+</tr>
+<tr>
+<td>TIMESTAMP</td>
+<td>2023-11-05:19:51:39</td>
+</tr>
+<tr>
+<td>STATUS</td>
+<td>VALID</td>
+</tr>
+<tr>
+<td>TEMPORARY</td>
+<td>N</td>
+</tr>
+<tr>
+<td>GENERATED</td>
+<td>N</td>
+</tr>
+<tr>
+<td>SECONDARY</td>
+<td>N</td>
+</tr>
+<tr>
+<td>NAMESPACE</td>
+<td>3</td>
+</tr>
+<tr>
+<td>EDITION_NAME</td>
+<td>null</td>
+</tr>
+<tr>
+<td>SHARING</td>
+<td>NONE</td>
+</tr>
+<tr>
+<td>EDITIONABLE</td>
+<td>N</td>
+</tr>
+<tr>
+<td>ORACLE_MAINTAINED</td>
+<td>N</td>
+</tr>
+<tr>
+<td>APPLICATION</td>
+<td>N</td>
+</tr>
+<tr>
+<td>DEFAULT_COLLATION</td>
+<td>USING_NLS_COMP</td>
+</tr>
+<tr>
+<td>DUPLICATED</td>
+<td>N</td>
+</tr>
+<tr>
+<td>SHARDED</td>
+<td>N</td>
+</tr>
+<tr>
+<td>IMPORTED_OBJECT</td>
+<td>N</td>
+</tr>
+<tr>
+<td>CREATED_APPID</td>
+<td>null</td>
+</tr>
+<tr>
+<td>CREATED_VSNID</td>
+<td>null</td>
+</tr>
+<tr>
+<td>MODIFIED_APPID</td>
+<td>null</td>
+</tr>
+<tr>
+<td>MODIFIED_VSNID</td>
+<td>null</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.1">
+<div class="masterreport">
+<table id="Table.1" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>PRIVILEGE</th>
+<th>GRANTEE</th>
+<th>GRANTABLE</th>
+<th>GRANTOR</th>
+<th>OBJECT_NAME</th>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.2">
+<div class="masterreport">
+<table id="Table.2" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>NAME</th>
+<th>OWNER</th>
+<th>TYPE</th>
+<th>OBJECT_ID</th>
+<th>STATUS</th>
+<th>TYPE_LINK</th>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.3">
+<div class="masterreport">
+<table id="Table.3" cellpadding="0" cellspacing="0" summary="">
+<tr>
+<th>NAME</th>
+<th>OWNER</th>
+<th>TYPE</th>
+<th>OBJECT_ID</th>
+<th>STATUS</th>
+<th>TYPE_LINK</th>
+</tr>
+</table>
+</div>
+</div>
+<div id="Master.4">
+<div class="masterreport">
+<pre>
+TRIGGER trg_check_overlap
+BEFORE INSERT OR UPDATE ON Horarios
+FOR EACH ROW
+DECLARE
+    v_count INT;
+    v_duracion INT;
+BEGIN
+    -- Se obtiene la duración de la sesión de la tabla Actividades para el ID de actividad correspondiente
+    SELECT DuracionSesion INTO v_duracion FROM Actividades WHERE IdActividad = :NEW.IdActividad;
+
+    -- Se calcula si existen registros que representen un solapamiento con el nuevo horario
+    SELECT COUNT(*)
+    INTO v_count
+    FROM Horarios h
+    WHERE h.Sala = :NEW.Sala
+    AND h.Fecha = :NEW.Fecha
+    AND h.IdHorario != :NEW.IdHorario -- Se excluye el horario actual en caso de actualización
+    AND NOT (
+        TO_DATE(TO_CHAR(h.Fecha, 'YYYY-MM-DD') || ' ' || h.Hora, 'YYYY-MM-DD HH24:MI') >= TO_DATE(TO_CHAR(:NEW.Fecha, 'YYYY-MM-DD') || ' ' || :NEW.Hora, 'YYYY-MM-DD HH24:MI') + NUMTODSINTERVAL(v_duracion, 'MINUTE')
+        OR
+        TO_DATE(TO_CHAR(h.Fecha, 'YYYY-MM-DD') || ' ' || h.Hora, 'YYYY-MM-DD HH24:MI') + NUMTODSINTERVAL((SELECT DuracionSesion FROM Actividades WHERE IdActividad = h.IdActividad), 'MINUTE') &lt;= TO_DATE(TO_CHAR(:NEW.Fecha, 'YYYY-MM-DD') || ' ' || :NEW.Hora, 'YYYY-MM-DD HH24:MI')
+    );
+
+    -- Si se encontró al menos un registro que se solape, lanzar un error
+    IF v_count > 0 THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Solapamiento de horario en la misma sala.');
+    END IF;
+END;</pre>
+</div>
+</div>
+</div>
+</body>
+</html>

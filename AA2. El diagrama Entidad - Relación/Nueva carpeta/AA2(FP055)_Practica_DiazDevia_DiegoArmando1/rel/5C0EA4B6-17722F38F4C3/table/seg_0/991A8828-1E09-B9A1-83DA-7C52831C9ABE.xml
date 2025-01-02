@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="991A8828-1E09-B9A1-83DA-7C52831C9ABE" schemaObject="1605402D-5C81-6C00-66D5-D7CA361503AF" name="ACTIVIDADES">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>242282B4-12DD-E1D1-4172-5C2478FF24A3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDACTIVIDAD" id="07F414B1-C441-CD9F-9A8B-D98481CB4248">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>E6E6343B-498A-56AE-CA58-397B238949F1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVIDAD" id="904B7415-7208-58C3-1162-414C69972F3A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>EE0471BB-91A1-54C9-2D31-2998D01098F0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="9CF202ED-A20C-853F-5E61-4B38DDE51801">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>A68CDED5-FD4C-269B-363C-CC17C4B9B287</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIVEL" id="EEE301E4-4C4B-C44A-22E6-548017A98E33">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>3821F845-DC8A-ADB1-978A-1BD5650C8FF0</importedID>
+<constraintName>SYS_C008273</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;Avanzado&apos;" description=""/>
+<valueDef value="&apos;Básico&apos;" description=""/>
+<valueDef value="&apos;Inicial&apos;" description=""/>
+<valueDef value="&apos;Intermedio&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACIONSESION" id="AAC1C002-A438-65A9-897E-9DC5ECCED6D7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>8DD4C0B2-23A4-9B6E-3DB3-C196D3C60013</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERTIFICADOOFICIAL" id="41377400-75D8-EBCF-8C6B-66680526B221">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>94E0FBFB-9C22-3EC6-D675-AFF61828C237</importedID>
+<constraintName>SYS_C008274</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERTIFICADOCURSO" id="6850E1EC-D4AB-AF33-631B-0CA7E29AC1AD">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>E9F91BCF-5374-226D-CFF8-F7A502818FE1</importedID>
+<constraintName>SYS_C008275</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESENCIAL" id="18C30917-F26A-CC83-8047-D5BE1F48FFBE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>50E83DF0-054A-02A5-2537-7A1E7DD770D5</importedID>
+<constraintName>SYS_C008276</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATERIALESPROPIOS" id="87501F96-DCC9-2609-437D-CF71EC17207B">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>33D8CFA4-2FF4-0A52-2C17-E4C85205AA05</importedID>
+<constraintName>SYS_C008277</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACIONES" id="FA2A46E4-9F4E-AB8B-1005-87296798A4EB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>40DFB208-A72A-6075-4402-2C861C3E122D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7182A34-7EC7-0A9B-A971-BF2341C74F29" schemaObject="1605402D-5C81-6C00-66D5-D7CA361503AF" name="ACTIVIDADES_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>A9C35F96-0633-7EC1-4CD8-1A4BA128D35E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07F414B1-C441-CD9F-9A8B-D98481CB4248"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

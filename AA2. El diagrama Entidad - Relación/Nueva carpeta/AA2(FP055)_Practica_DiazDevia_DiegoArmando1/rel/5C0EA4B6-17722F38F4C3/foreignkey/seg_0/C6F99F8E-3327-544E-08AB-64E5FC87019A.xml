@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6F99F8E-3327-544E-08AB-64E5FC87019A" containerWithKeyObject="F5C88F0B-58EA-B86C-D3D5-054F621B8B20" localFKIndex="AA764989-AFF0-38B0-418B-E59D84E63EDB" name="FK_SOCIO_CORPORATIVO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<importedID>AF9E8255-930A-AC27-ED93-4B533E1335A7</importedID>
+<referredTableLongName>HR.SOCIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>97CB9D83-DAB7-433D-31F7-E39FA39A58FC</referredTableID>
+<keyObject>641E839E-4592-71B2-CEB0-70A05E78EC0B</keyObject>
+<referredKeyID>641E839E-4592-71B2-CEB0-70A05E78EC0B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SOCIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

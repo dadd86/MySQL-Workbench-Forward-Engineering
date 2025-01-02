@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACTIVIDADESPERMITIDAS" directorySegmentName="seg_0" id="767108EF-14B2-AC75-F001-2F69F7F5342B">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<schemaObject>E325D238-D1BE-C1EE-5A04-7026795CDDDD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E1C69C38-7295-EAD4-42EF-DC4DE4120880</segment>
+<tableSpace>3550B10A-6E3F-1C31-3075-A0A9EB26D0DE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDACTIVIDAD" id="47BCF05F-FD37-47E5-9C29-38E7E89295D3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDPLAN" id="49794AD9-6D4C-DF1D-AFD2-9D92D2DA16CB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ACTIVIDADESPERMITIDAS" id="9D78B866-1DB0-81E5-8AFB-86C88C865CE0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<schemaObject>E325D238-D1BE-C1EE-5A04-7026795CDDDD</schemaObject>
+<segment>4FE6EC95-AB2D-504B-C69E-F9B1E89E6528</segment>
+<tableSpace>3550B10A-6E3F-1C31-3075-A0A9EB26D0DE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ACTIVIDAD_ACTIVIDADES" id="13D51CDA-362F-1DBC-CBAA-B6637F7790E0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ACTIVIDAD_PLAN" id="5EB317B3-50A9-5AA0-5408-B9F1525804B6">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ACTIVIDADESPERMITIDAS" id="B542364A-8140-84FA-4BD5-0D2AF9839060">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<segment>4FE6EC95-AB2D-504B-C69E-F9B1E89E6528</segment>
+<tableSpace>3550B10A-6E3F-1C31-3075-A0A9EB26D0DE</tableSpace>
+<existingIndex>9D78B866-1DB0-81E5-8AFB-86C88C865CE0</existingIndex>
+<indexSegment>4FE6EC95-AB2D-504B-C69E-F9B1E89E6528</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

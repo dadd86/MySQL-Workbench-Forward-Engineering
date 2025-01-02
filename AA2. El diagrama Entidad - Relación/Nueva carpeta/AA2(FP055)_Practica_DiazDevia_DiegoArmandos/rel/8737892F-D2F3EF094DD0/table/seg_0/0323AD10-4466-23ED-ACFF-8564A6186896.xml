@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0323AD10-4466-23ED-ACFF-8564A6186896" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="TRABAJADORESCORPORATIVOS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>DEAA382D-7CE7-1D6D-6DCF-EA6C2B04C1FA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SOCIO" id="066A5C7B-2C02-DEBF-C9D3-51B9BC704DFB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>1A73B220-16D0-D1C8-8B9B-E9678870E1B9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF9E8255-930A-AC27-ED93-4B533E1335A7" referredColumn="3A0B26DA-6AB7-2E69-FE3E-0CE2A63A2E17"/>
+</associations>
+</Column>
+<Column name="NIF_EMPRESA" id="8FFB819E-A04B-3870-9467-2894AD28E438">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>2C760B92-BAD8-59E0-1A04-46A2984C84C7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9749D4E-5CBF-DE9B-7BD9-33966ADB44D6" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="TRABAJADORESCORPORATIVOS_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>EBB874AC-53C3-C65E-1CAE-D72E89A1D749</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="066A5C7B-2C02-DEBF-C9D3-51B9BC704DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6684E45-5BA2-DB6D-97A9-818581B69CC2" name="FK_SOCIO_CORPORATIVO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="066A5C7B-2C02-DEBF-C9D3-51B9BC704DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3F5BF0A-D86F-1846-926A-DD32B159DD98" schemaObject="E325D238-D1BE-C1EE-5A04-7026795CDDDD" name="HISTORICOPLANESSOCIOSv1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>95BD62FE-FB80-7947-4918-4585497CC631</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_HISTORICO" id="F39D71A6-9D42-6925-1366-9B1BFCE99BE4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>46715F67-4246-63FC-2191-A40B2C8CD995</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SOCIO" id="D64D9E34-DECB-E766-08C9-9562B38C6368">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>42C0C20F-877B-3F80-2C93-8DF360840076</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4A6309B-3835-71B3-AA3B-B2A0B65D6491" referredColumn="C5973572-F2CF-BD08-E03E-6F7C36133783"/>
+</associations>
+</Column>
+<Column name="FECHACAMBIO" id="5ED294C2-3BCA-562D-4AC2-A5710FF91574">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>00EB44CF-BB60-EC6D-0D80-753FB65EE229</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLANANTERIOR" id="19324EFD-FCA5-42A1-8B3F-05643764537C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>BA92DC3D-06FE-A007-35D5-5CD717391487</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE318771-DF80-982C-5F4A-05D9E93BD0AE" referredColumn="5A7A740D-62C3-0A66-B16C-247DDD251983"/>
+</associations>
+</Column>
+<Column name="PLANACTUAL" id="88709B42-2762-CD15-5B69-484D522A48B7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>5C6360A7-1B15-2929-6BAF-558F30AC7C44</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F76349A-6E88-5BC5-DFD2-1871BBA9E429" referredColumn="5A7A740D-62C3-0A66-B16C-247DDD251983"/>
+</associations>
+</Column>
+<Column name="FECHAALTAPLANANTERIOR" id="60C80242-8668-E987-5630-202E8B682F19">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>4280057D-07A7-239F-5F49-ACB013C336C2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAJADEFINITIVA" id="798DA5DD-B310-8947-A9DC-B3BDF0FCF12D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>9F53797D-0038-5584-28C9-BAC36F45BC6F</importedID>
+<constraintName>SYS_C008268</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1CD05F1-2B64-4BDC-E9D1-BDDA57E0BF9C" schemaObject="E325D238-D1BE-C1EE-5A04-7026795CDDDD" name="HISTORICOPLANESSOCIOS_PKv1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>345552DF-63F6-EEF7-5C3C-69C7AF9054D2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F39D71A6-9D42-6925-1366-9B1BFCE99BE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB2263BA-4BFE-4119-8920-3C9FC5CDB5E4" name="FK_HISTORICO_SOCIOv1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D64D9E34-DECB-E766-08C9-9562B38C6368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF62FD65-F775-6EB2-3CD1-C0C687627300" name="FK_PLAN_ACTUALv1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88709B42-2762-CD15-5B69-484D522A48B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70399E42-59E1-C1C1-4D84-985775068250" name="FK_PLAN_ANTERIORv1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19324EFD-FCA5-42A1-8B3F-05643764537C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

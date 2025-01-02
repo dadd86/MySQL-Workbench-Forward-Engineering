@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="767108EF-14B2-AC75-F001-2F69F7F5342B" schemaObject="E325D238-D1BE-C1EE-5A04-7026795CDDDD" name="ACTIVIDADESPERMITIDAS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>3B3453D0-1D1C-8172-DF5B-2C33A313B275</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPLAN" id="49794AD9-6D4C-DF1D-AFD2-9D92D2DA16CB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>8203452A-6BCB-F3A2-FC60-E4BCDC387E14</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3AC35F5-7B79-936B-2482-8FBD334D08F7" referredColumn="2167D3D0-AC0D-1C4D-4076-222BFAF1589F"/>
+</associations>
+</Column>
+<Column name="IDACTIVIDAD" id="47BCF05F-FD37-47E5-9C29-38E7E89295D3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>94DFC5EC-BA9B-AB79-FA1D-8F5B096C343B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B542364A-8140-84FA-4BD5-0D2AF9839060" name="PK_ACTIVIDADESPERMITIDAS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>92B91869-1785-288B-0C92-C94E08CA406A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49794AD9-6D4C-DF1D-AFD2-9D92D2DA16CB"/>
+<colUsage columnID="47BCF05F-FD37-47E5-9C29-38E7E89295D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D78B866-1DB0-81E5-8AFB-86C88C865CE0" schemaObject="E325D238-D1BE-C1EE-5A04-7026795CDDDD" name="PK_ACTIVIDADESPERMITIDAS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>F91893E0-85DF-8286-E13B-750397B98828</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49794AD9-6D4C-DF1D-AFD2-9D92D2DA16CB"/>
+<colUsage columnID="47BCF05F-FD37-47E5-9C29-38E7E89295D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13D51CDA-362F-1DBC-CBAA-B6637F7790E0" name="FK_ACTIVIDAD_ACTIVIDADES">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47BCF05F-FD37-47E5-9C29-38E7E89295D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EB317B3-50A9-5AA0-5408-B9F1525804B6" name="FK_ACTIVIDAD_PLAN">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49794AD9-6D4C-DF1D-AFD2-9D92D2DA16CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

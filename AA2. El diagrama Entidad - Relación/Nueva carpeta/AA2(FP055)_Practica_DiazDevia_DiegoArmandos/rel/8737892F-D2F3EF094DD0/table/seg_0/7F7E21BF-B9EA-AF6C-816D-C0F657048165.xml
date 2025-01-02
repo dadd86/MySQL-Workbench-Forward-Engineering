@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F7E21BF-B9EA-AF6C-816D-C0F657048165" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="HORARIOS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>1593FF25-FD21-3D87-01E9-23F8B81DF21C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDHORARIO" id="71B28495-64EA-9E7E-4F68-BA86D536E7EE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>0875BBEC-5683-61CD-B321-5AE672D75ED3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDACTIVIDAD" id="E9F045B4-7C42-43B3-993A-665308E567F9">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>8AD7FC6E-5406-DB05-EF78-6ED0A4CA1E20</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A8AAE0A-D8B4-024A-87C3-58678B16C7BA" referredColumn="E6E6343B-498A-56AE-CA58-397B238949F1"/>
+</associations>
+</Column>
+<Column name="SALA" id="97D25D1B-0371-AAB5-21D1-FBDD0B2CFD9A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>96AEAE70-1802-B278-62C9-76E9BF8B493F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="4731A5F8-6886-04A4-E17E-9EEB4B7BA8F7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>2B6BEDB6-2D87-FE27-B38B-0BA666CA2FA6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA" id="E99EDFE8-4B46-C4A7-7EDA-5E9D93507182">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>B81EE406-9D1D-2979-2D30-856F704E4DE4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFESOR" id="EDE74CB1-B481-AC2E-5EB2-6BB32532A333">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>9DFA719A-5A9A-8C7C-524F-571DD8757578</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACIONES" id="BE655D3C-85A4-005B-24A4-F7C855E5095D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>03DFEBF9-684A-63FC-6C71-FF20185FE333</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PROFESOR" id="0C2FDC59-85C9-22D3-7D2C-B8B4D6B59A83">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>E672E9F9-A4B6-C1EB-31E4-F7C220F9CAB0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9D6E352-86D8-A607-A5AA-8346538797C4" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="HORARIOS_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>BD9C546E-6346-3253-36A6-47EEC70475BC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71B28495-64EA-9E7E-4F68-BA86D536E7EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="088E2EC1-5623-3643-E0CB-BE3D72778FB5" name="FK_HORARIO_ACTIVIDAD">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9F045B4-7C42-43B3-993A-665308E567F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06A43C2C-F02C-CC59-61AF-D922B23F4E7B" name="FK_HORARIO_PROFESOR">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C2FDC59-85C9-22D3-7D2C-B8B4D6B59A83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

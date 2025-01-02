@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5BC4978-104C-570C-33F2-154CE4E4A695" containerWithKeyObject="7F7E21BF-B9EA-AF6C-816D-C0F657048165" localFKIndex="06A43C2C-F02C-CC59-61AF-D922B23F4E7B" name="FK_HORARIO_PROFESOR">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<importedID>9FB40010-5792-EBB8-5EF5-E38A7B3F5C99</importedID>
+<referredTableLongName>HR.PROFESORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>false</mandatory>
+<refColNames>ID_PROFESOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

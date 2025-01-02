@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22BEA615-D98E-0684-3676-C6CC77AEE71B" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="INSTALACIONES">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:37 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>A3A5C403-9A32-C27E-89F6-A230EB35BD81</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDINSTALACION" id="30AB8F62-B3AF-C98D-E1D3-6AF2D51A8C35">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:37 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>888E6742-D7DF-BC09-C437-2AA779E235D0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZONA" id="835F8D23-4802-AD09-081B-6F30B6C2C099">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:37 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>734BE054-A9DF-21B2-BBB3-A67A149A5B1F</importedID>
+<constraintName>SYS_C008287</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;24h&apos;" description=""/>
+<valueDef value="&apos;Estándar&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="21A4A1EB-3D9A-DF10-9BEF-C1E6E3966236">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:37 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>2BCCC847-67BE-980C-1716-62CA512F6637</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="2C594A1D-124E-EBBA-3D1D-76F602A2D90F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:37 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>60B1B06F-FDD7-A265-A4AB-88AD7C65D7A4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANOM2" id="409C1CD5-3404-5352-02A5-8D356364B1E0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:37 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>6EFB105A-A6D9-07E5-822D-C7CC24937634</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFORO" id="27E4C687-037B-DF2A-8992-EF41DDD92275">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:37 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>0496ABC0-9EB3-186F-5C56-8AA903F6B718</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F79BFF03-70F8-7D2F-405A-EB79B48C4B27" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="INSTALACIONES_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:37 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>F4937B71-DFAF-BA28-0448-016E7F45D0A9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30AB8F62-B3AF-C98D-E1D3-6AF2D51A8C35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

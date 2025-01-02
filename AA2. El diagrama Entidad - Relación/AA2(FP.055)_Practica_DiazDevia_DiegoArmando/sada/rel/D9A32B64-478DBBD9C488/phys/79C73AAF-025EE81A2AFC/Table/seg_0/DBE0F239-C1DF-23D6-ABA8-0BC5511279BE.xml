@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SOCIOS" directorySegmentName="seg_0" id="DBE0F239-C1DF-23D6-ABA8-0BC5511279BE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<schemaObject>E325D238-D1BE-C1EE-5A04-7026795CDDDD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E1C69C38-7295-EAD4-42EF-DC4DE4120880</segment>
+<tableSpace>3550B10A-6E3F-1C31-3075-A0A9EB26D0DE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_SOCIO" id="1C446AD1-0230-1496-1852-7AAF7DB9D276">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="327448EE-28B1-50A4-43AA-51BEE86EC9DA">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="37EEFE96-7BD5-59EE-BC18-FD4204264500">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PLAN" id="3B57FCD5-DEFF-110A-0388-1158A375A872">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEXO" id="3F548D7C-91C5-93CE-ECD1-C33D9BAFB448">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMEROTARJETAACCESO" id="43CF38D0-575A-311C-C2BF-1D15EE467FCC">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCUMENTOIDENTIDAD" id="475E7D15-FCF3-B12A-B3B9-02C431A80990">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CIUDAD" id="70C33A45-F4C7-415C-5609-94A939102473">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="7A4C2003-3FDF-1A59-B850-B3BC51717DFA">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHACADUCIDAD" id="8184673F-8C3E-8AD1-7F6C-F8E49D1879D3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAALTA" id="864CC71F-43D8-63AA-4EF3-C075574588F5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="957C9536-EE6E-6249-EBCA-ED4B6075A474">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGOPOSTAL" id="959E49C6-99A4-09DC-7A7C-1FEF7CF97655">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO2" id="9BCD87C8-9E84-9CDF-ACCB-74DAE3831D74">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVO" id="A18D8CDB-A570-A546-7170-FB6F3E7ED0D9">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO1" id="ABBDBD47-2D64-7A97-FDC4-6F03249BF943">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAINSCRIPCION" id="AE6A4179-A352-3807-88AD-3A1F731D7E8B">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBSERVACIONES" id="B2FBF93B-1799-DCFA-98C1-803515FB86F3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHANACIMIENTO" id="C1E239F7-9EEF-2E46-DBA8-52E6DFBAB8AB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PLAN" id="7AFE8D9C-5BCB-E9A6-2B3F-54E497ED2A37">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SOCIOS_PK" id="0E79C0C1-38B8-2087-171A-21DABA5A7F18">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<schemaObject>E325D238-D1BE-C1EE-5A04-7026795CDDDD</schemaObject>
+<segment>4FE6EC95-AB2D-504B-C69E-F9B1E89E6528</segment>
+<tableSpace>3550B10A-6E3F-1C31-3075-A0A9EB26D0DE</tableSpace>
+<indexSegment>4FE6EC95-AB2D-504B-C69E-F9B1E89E6528</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

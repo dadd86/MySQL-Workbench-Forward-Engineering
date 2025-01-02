@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACTIVIDADES" directorySegmentName="seg_0" id="242282B4-12DD-E1D1-4172-5C2478FF24A3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C9F72971-A3A6-C9CE-6E13-C2BFBB806326</segment>
+<tableSpace>46049283-13F2-3931-4394-FB8EDA1C771B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MATERIALESPROPIOS" id="33D8CFA4-2FF4-0A52-2C17-E4C85205AA05">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NIVEL" id="3821F845-DC8A-ADB1-978A-1BD5650C8FF0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBSERVACIONES" id="40DFB208-A72A-6075-4402-2C861C3E122D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRESENCIAL" id="50E83DF0-054A-02A5-2537-7A1E7DD770D5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DURACIONSESION" id="8DD4C0B2-23A4-9B6E-3DB3-C196D3C60013">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CERTIFICADOOFICIAL" id="94E0FBFB-9C22-3EC6-D675-AFF61828C237">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="A68CDED5-FD4C-269B-363C-CC17C4B9B287">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDACTIVIDAD" id="E6E6343B-498A-56AE-CA58-397B238949F1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CERTIFICADOCURSO" id="E9F91BCF-5374-226D-CFF8-F7A502818FE1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVIDAD" id="EE0471BB-91A1-54C9-2D31-2998D01098F0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACTIVIDADES_PK" id="A9C35F96-0633-7EC1-4CD8-1A4BA128D35E">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D</schemaObject>
+<segment>FFA15D42-C5D7-E995-136C-91CE3C2825CF</segment>
+<tableSpace>46049283-13F2-3931-4394-FB8EDA1C771B</tableSpace>
+<indexSegment>FFA15D42-C5D7-E995-136C-91CE3C2825CF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

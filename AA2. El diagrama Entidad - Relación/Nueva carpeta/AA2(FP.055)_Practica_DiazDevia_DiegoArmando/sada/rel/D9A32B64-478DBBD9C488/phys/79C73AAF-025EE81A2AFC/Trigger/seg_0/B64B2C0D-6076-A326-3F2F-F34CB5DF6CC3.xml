@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_AFTER_PLAN_DROP" directorySegmentName="seg_0" id="B64B2C0D-6076-A326-3F2F-F34CB5DF6CC3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:05:49 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<actions>UPDATE</actions>
+<body><![CDATA[BEGIN
+    INSERT INTO HistoricoPlanesSocios (
+        ID_Historico, ID_Socio, FechaCambio, PlanAnterior, PlanActual, FechaAltaPlanAnterior, BajaDefinitiva
+    ) VALUES (
+        historico_seq.NEXTVAL, :OLD.ID_Socio, SYSDATE, :OLD.ID_Plan, NULL, :OLD.FechaAlta, 'S'
+    );
+END;]]></body>
+<triggerTime>AFTER</triggerTime>
+<columns>ABA08CA0-626B-BFB2-A042-098A2BC275F5</columns>
+<condition><![CDATA[OLD.ID_Plan IS NOT NULL AND NEW.ID_Plan IS NULL]]></condition>
+<owner>6EA96BAA-F189-62AE-88FE-EF0868E973A1</owner>
+<table>E6D96030-C3B9-7064-9B9E-6448ABBB1179</table>
+</TriggerOraclev10g>

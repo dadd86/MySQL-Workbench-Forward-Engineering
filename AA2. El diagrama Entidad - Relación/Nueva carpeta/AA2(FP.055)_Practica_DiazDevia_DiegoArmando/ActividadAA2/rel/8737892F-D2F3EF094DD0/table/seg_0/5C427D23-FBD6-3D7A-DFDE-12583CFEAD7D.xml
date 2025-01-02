@@ -1,0 +1,298 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C427D23-FBD6-3D7A-DFDE-12583CFEAD7D" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="SOCIOS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>FC727D76-2348-112D-8211-2F0185CC994E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SOCIO" id="3A0B26DA-6AB7-2E69-FE3E-0CE2A63A2E17">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>2933049E-AD7C-D907-DDF9-32BFFFA04728</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="079E28B5-0D91-70E9-2970-9C098D4A814E">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>433E66B8-86F8-480E-82C3-7267AD3E2DF3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="9E945A2B-BAE3-DF78-79A3-D565196311A5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>02AD33D7-9C8E-4B6F-7754-79609284193D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="A5CF4DB3-8FFF-E95B-205B-F42856813AD0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>8B7F482E-2C49-FF20-A534-56D9B4711309</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="AC7C3626-C9F2-7809-3E95-AB50F7CCCE49">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>DB417984-F79E-9675-65FE-A97EC481C361</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PLAN" id="C6C36CD2-8D39-8BF9-C758-8EC776513C07">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>0614ED5E-EC0E-6380-22E7-809A24D05218</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE2373F0-D990-D1D6-B8B0-E5DEF9C4838C" referredColumn="7DFE7BA1-D854-67A5-C2C2-759CDD9DB37B"/>
+</associations>
+</Column>
+<Column name="FECHAINSCRIPCION" id="0392B6E8-D64C-F981-8131-CB3BDA51E865">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>8452EDFB-C663-87E3-947C-E1DE9B1523C3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHACADUCIDAD" id="376D0554-F39A-3997-EFF6-FF46CCE4D1EA">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>75A77CC7-F371-17C4-4A6B-4A145F434620</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCUMENTOIDENTIDAD" id="CA0494F9-8836-16BD-0351-524A67AB5618">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>9D91DAEE-EB46-FDD6-DBF7-C6D7EA6F8E8D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO1" id="A5FB4815-158F-89B3-6414-015949F571CF">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>C789F670-AA7C-A58C-7EFA-C29DFF6F90A9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO2" id="AF0F1BD1-E134-AA24-92D7-67238A87D4F4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>54318176-B9C8-2552-7E78-DBA12A250CE7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="A1106564-BA82-50A5-E775-3A2EC85ECC53">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>F5517C56-98C6-E35E-4B0E-D012FBEEE093</importedID>
+<constraintName>SYS_C008263</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;F&apos;" description=""/>
+<valueDef value="&apos;M&apos;" description=""/>
+<valueDef value="&apos;O&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHANACIMIENTO" id="474F14CA-E3F4-0BC4-A005-B297BF2F345F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>77321BE5-3F27-339A-FDF7-383123F33840</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAALTA" id="3429FCE4-2829-E72B-FF8E-56D5A8D5412C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>092F2CE0-7380-481E-FBF2-154AE9CE9264</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMEROTARJETAACCESO" id="4F419796-EAC5-6D7C-7882-CA047D06C4D6">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>911A2A33-7CFE-E84F-E986-109E64C9DB34</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD" id="CE1E196E-DE06-05EB-E1F8-4FFDDEE26006">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>667F3569-2A3C-000D-680E-F5C62B34C785</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOPOSTAL" id="8B2742F1-DC85-FD1C-5277-6032F8D1878A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>5671E9D5-FB3A-1020-AF5E-0C45AFD628C8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACIONES" id="5E42A3D0-3C76-9505-1B1B-F251C3F108F1">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>19AF4607-11B9-ADF8-9271-BC02C846BA43</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVO" id="F7E7F931-B60D-6D2C-582E-B5015EDF4AEC">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>01705E39-0C57-147E-A8C1-E5CBA2DE17D2</importedID>
+<constraintName>SYS_C008264</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5123A67B-2299-FF54-A4B8-AB2F483DEC61" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="SOCIOS_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>996BB3B5-D455-8457-B727-8AC95E841CD7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A0B26DA-6AB7-2E69-FE3E-0CE2A63A2E17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BCC9FEA-A1F4-4B56-5BEE-27D58A3D43C3" name="FK_PLAN">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:43 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6C36CD2-8D39-8BF9-C758-8EC776513C07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

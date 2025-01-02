@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SOCIOS_BEFORE_INSERT" directorySegmentName="seg_0" id="DB2B6600-4212-9BF9-EEEE-63416CA25F91">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:05:49 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+    SELECT socio_seq.NEXTVAL INTO :new.ID_Socio FROM dual;                      -- Selecciona el siguiente valor de la secuencia 'socio_seq' y lo asigna a 'ID_Socio' de la nueva fila
+                                                                                -- ':new' es un pseudoregistro que representa la nueva fila que se está insertando
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>6EA96BAA-F189-62AE-88FE-EF0868E973A1</owner>
+<table>E6D96030-C3B9-7064-9B9E-6448ABBB1179</table>
+</TriggerOraclev10g>

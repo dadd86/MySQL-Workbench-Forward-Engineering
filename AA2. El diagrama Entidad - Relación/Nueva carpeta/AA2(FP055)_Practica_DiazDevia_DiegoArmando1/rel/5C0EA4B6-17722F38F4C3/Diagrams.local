@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="8FA7195F-024B-08F7-84E3-042FFBAE62AC" name="HR" visible="true"/>
+   <object objectType="sub_view" objectID="9EA90DBA-0EF8-1616-881E-EF9DEEFB9540" name="HR - SubView_1" visible="true"/>
+   <object objectType="sub_view" objectID="89A6889C-4769-15E1-F169-ED024F3DEB18" name="HR - SubView_10" visible="true"/>
+   <object objectType="sub_view" objectID="2FF456A7-F502-CED9-48D8-D57A482FDB71" name="HR - SubView_11" visible="true"/>
+   <object objectType="sub_view" objectID="3265A578-BAA6-A7A4-AF1F-7B568BD3965C" name="HR - SubView_12" visible="true"/>
+   <object objectType="sub_view" objectID="BAE6CBEB-E0F4-11C5-D292-FE9F59519207" name="HR - SubView_2" visible="true"/>
+   <object objectType="sub_view" objectID="DEE4D393-D5CF-AAC9-85A0-4882D4042325" name="HR - SubView_3" visible="true"/>
+   <object objectType="sub_view" objectID="8DB30B2C-8D81-1BB1-9AB9-AC7C35114F48" name="HR - SubView_4" visible="true"/>
+   <object objectType="sub_view" objectID="D98C63CA-67ED-953B-E85E-A638844F7A9D" name="HR - SubView_5" visible="true"/>
+   <object objectType="sub_view" objectID="E91B9639-9D48-9A75-6D23-3F2F46F58F07" name="HR - SubView_6" visible="true"/>
+   <object objectType="sub_view" objectID="9749CAE0-F53C-6421-04F1-BD2C279FCA30" name="HR - SubView_7" visible="true"/>
+   <object objectType="sub_view" objectID="57CA442B-2B84-7F0F-A592-962FF2076192" name="HR - SubView_8" visible="true"/>
+   <object objectType="sub_view" objectID="D8024CC7-79A4-52A3-1AD3-863EC9D2D25A" name="HR - SubView_9" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

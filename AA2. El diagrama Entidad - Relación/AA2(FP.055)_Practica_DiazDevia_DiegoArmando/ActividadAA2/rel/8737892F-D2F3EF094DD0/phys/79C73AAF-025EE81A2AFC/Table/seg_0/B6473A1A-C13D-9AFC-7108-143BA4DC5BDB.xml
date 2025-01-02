@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPRESAS" directorySegmentName="seg_0" id="B6473A1A-C13D-9AFC-7108-143BA4DC5BDB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C9F72971-A3A6-C9CE-6E13-C2BFBB806326</segment>
+<tableSpace>46049283-13F2-3931-4394-FB8EDA1C771B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NIF" id="2CC820BF-D2A4-C1A1-09F8-0E4B4A0DF4EC">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAINICIOCONVENIO" id="2E6B4013-BE79-870E-EC3C-EACB84CEBBD2">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAILCONTACTO" id="3CDCAEF7-D378-A321-0010-858BF5DBE090">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBREEMPRESA" id="417D3632-91D3-7960-DB7D-30BB9C1471AE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSONACONTACTO" id="73D0D040-1185-647E-B2D6-16C591E04EF3">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAFINCONVENIO" id="89935AAE-F603-7091-3F27-4E23965A75DC">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONOCONTACTO" id="B02F5976-F0FC-467E-1D38-18763D9FFFF5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPRESAS_PK" id="7B72ADEE-3242-FCFC-BDCF-E702DD3783A6">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:31 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D</schemaObject>
+<segment>FFA15D42-C5D7-E995-136C-91CE3C2825CF</segment>
+<tableSpace>46049283-13F2-3931-4394-FB8EDA1C771B</tableSpace>
+<indexSegment>FFA15D42-C5D7-E995-136C-91CE3C2825CF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

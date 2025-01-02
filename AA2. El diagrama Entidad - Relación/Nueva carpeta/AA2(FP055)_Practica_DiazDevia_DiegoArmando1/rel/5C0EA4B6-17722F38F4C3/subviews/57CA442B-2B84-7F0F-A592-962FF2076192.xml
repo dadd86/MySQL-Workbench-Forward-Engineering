@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="HR - SubView_8" id="57CA442B-2B84-7F0F-A592-962FF2076192">
+<createdBy>Admin</createdBy>
+<modifiedBy>Admin</modifiedBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>55E63A66-7F31-C897-0BA1-F5765A7C664B</generatorId>
+<importedid>55E63A66-7F31-C897-0BA1-F5765A7C664B</importedid>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="4FD646E4-E6DD-9A9A-7CD8-CFBE47028139" otype="Table" vid="90F240C8-7F6D-0F45-1CC8-F2B1C85E419E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="267" height="192"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="991A8828-1E09-B9A1-83DA-7C52831C9ABE" otype="Table" vid="F3569E5E-F8E3-CF4E-EF6F-3A2AE0B0C81A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="272" width="287" height="186"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D9884CFC-4186-222E-978B-821B7A5BB00B" otype="Table" vid="DBAD89BC-DE2F-1EC6-562E-8BFB34FCB5A6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="638" width="277" height="130"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="C484BFB4-85D2-5E1D-CAA6-31347A43EB48" otype="FKIndexAssociation" vid_source="F3569E5E-F8E3-CF4E-EF6F-3A2AE0B0C81A" vid_target="90F240C8-7F6D-0F45-1CC8-F2B1C85E419E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="153" y="272"/>
+<point x="153" y="212"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

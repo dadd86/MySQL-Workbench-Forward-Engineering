@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA40D854-4BD2-8BC2-0FB9-5A5D577C0B3C" schemaObject="E325D238-D1BE-C1EE-5A04-7026795CDDDD" name="PLANES">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>B6E01AEC-5A50-A766-E0B4-3EAF544148A0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2167D3D0-AC0D-1C4D-4076-222BFAF1589F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>75B37E94-1220-FEDE-188C-32345D695C90</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="144577A1-0F79-AA1A-FB96-42D04B6DEF46">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>5A553F81-CB57-52E0-C03A-19A287852C27</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="9C82C374-4140-57AE-B7E3-92A8588BE4BB">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>4F589BF3-8FC5-0A9D-DBC5-B1C375F4E792</importedID>
+<constraintName>SYS_C008255</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;E&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATRICULAPERSONA" id="21551CD0-2444-412F-E556-EC4AD2AD46E4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>00B3B6D9-8640-9410-C1D1-EE7810BB77E2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUOTAMENSUAL" id="9F77250B-69C0-7A03-B2C5-79E064FB0BC7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>3F7194FF-1963-98A6-4909-6E5F3473FBCC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="9A80480B-D87D-6795-4B1A-6E5C65D5ACA7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>A5EEAC12-932E-C7BB-F97C-EEC9B5FBAB81</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 BYTE</dataTypeSize>
+<ownDataTypeParameters>1000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44AD2F9C-2F66-E6C5-84E2-BF439853963F" schemaObject="E325D238-D1BE-C1EE-5A04-7026795CDDDD" name="PLANES_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<importedID>F4FB1996-0AD2-C20E-5505-2F12E2212DB6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2167D3D0-AC0D-1C4D-4076-222BFAF1589F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

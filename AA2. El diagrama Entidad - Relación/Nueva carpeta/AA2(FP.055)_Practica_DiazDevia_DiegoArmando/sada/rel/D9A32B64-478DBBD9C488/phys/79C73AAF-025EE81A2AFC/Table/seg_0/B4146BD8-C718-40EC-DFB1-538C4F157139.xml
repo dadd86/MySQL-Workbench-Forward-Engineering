@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HISTORICOPLANESSOCIOS" directorySegmentName="seg_0" id="B4146BD8-C718-40EC-DFB1-538C4F157139">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<schemaObject>E325D238-D1BE-C1EE-5A04-7026795CDDDD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E1C69C38-7295-EAD4-42EF-DC4DE4120880</segment>
+<tableSpace>3550B10A-6E3F-1C31-3075-A0A9EB26D0DE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_SOCIO" id="222A773E-F2A9-DBC7-AF66-7FB418412AF2">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLANACTUAL" id="23B3EA75-3689-C7F7-F385-838A26CD0119">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLANANTERIOR" id="A1087DC5-4840-7816-E0A7-3A15388FA137">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_HISTORICO" id="CA3A9928-98A3-D84C-D756-C76E0608306E">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHACAMBIO" id="CE804E79-AF91-69F9-760F-25C0E9679A8F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BAJADEFINITIVA" id="E8D7FE92-084D-C807-A767-38E8C9DC876D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAALTAPLANANTERIOR" id="FECBCAAF-F736-FECF-801C-643A874611B0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PLAN_ACTUAL" id="1D98333F-0A53-9D81-E384-B455280EE9FE">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_HISTORICO_SOCIO" id="AA7630EF-ABBE-B686-20A1-1E9C0C368E4C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PLAN_ANTERIOR" id="B3FE7BD1-EE7B-2C35-A23D-44CBD0AB3826">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HISTORICOPLANESSOCIOS_PK" id="CEC21072-1AB8-3421-968B-903CED100528">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:06:04 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<schemaObject>E325D238-D1BE-C1EE-5A04-7026795CDDDD</schemaObject>
+<segment>4FE6EC95-AB2D-504B-C69E-F9B1E89E6528</segment>
+<tableSpace>3550B10A-6E3F-1C31-3075-A0A9EB26D0DE</tableSpace>
+<indexSegment>4FE6EC95-AB2D-504B-C69E-F9B1E89E6528</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

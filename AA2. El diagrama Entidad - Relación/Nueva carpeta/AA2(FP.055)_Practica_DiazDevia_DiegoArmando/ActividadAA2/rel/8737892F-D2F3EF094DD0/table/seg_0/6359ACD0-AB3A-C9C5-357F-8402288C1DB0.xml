@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6359ACD0-AB3A-C9C5-357F-8402288C1DB0" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="TRABAJADORESAUTONOMOS">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>7C66D85B-AE17-1F7E-3924-F3EBA31BB407</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SOCIO" id="4EFAEF1B-583E-23E3-428C-AA05D216D74F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>4BF39ABE-9C9C-C527-4278-61176FEB19A3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88F00645-8D1E-76D9-F05B-B5999F317E00" referredColumn="3A0B26DA-6AB7-2E69-FE3E-0CE2A63A2E17"/>
+</associations>
+</Column>
+<Column name="BANCO" id="C4841470-9405-6F92-EEF7-05F869447B90">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>38C8BC0C-AF18-0B82-546D-210D16DC802D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMEROCUENTA" id="7CD9E6A4-F528-C2AF-D6F8-69BE4EE7DF9F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>956ABB17-D454-78D1-CD91-BA38008AA082</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24 BYTE</dataTypeSize>
+<ownDataTypeParameters>24 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21548B46-86AD-E5A3-EEB6-A6710F473D35" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="TRABAJADORESAUTONOMOS_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>9CE94325-6E4D-DD16-05DB-19ACA6AF6D71</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EFAEF1B-583E-23E3-428C-AA05D216D74F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59CA3323-8615-D48A-1AB1-BD9F75C5CEA0" name="FK_SOCIO_AUTONOMO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EFAEF1B-583E-23E3-428C-AA05D216D74F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

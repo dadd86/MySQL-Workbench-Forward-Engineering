@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SEGUIMIENTO" directorySegmentName="seg_0" id="B0B5F4F1-C0AE-DDBD-C5C2-5418B20DC60A">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C9F72971-A3A6-C9CE-6E13-C2BFBB806326</segment>
+<tableSpace>46049283-13F2-3931-4394-FB8EDA1C771B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOTAOBTENIDA" id="1B73493A-1F41-6A9D-C944-A48586E533C9">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDSEGUIMIENTO" id="326341FA-22F8-80E5-65D6-6E373AD788F0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAACTIVIDAD" id="44783C26-38EB-1003-D392-3D7CE3C25269">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDSOCIO" id="AFB950DD-B1F3-7C13-EF7E-4A2225750F89">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SEGUIMIENTO_SOCIO" id="D8DE8379-DCAF-8BAA-4DA6-9263742B4225">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SEGUIMIENTO_PK" id="D60D99AC-047E-939C-A1C1-20BB0211324F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>Sin título_1</ownerDesignName>
+<schemaObject>D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D</schemaObject>
+<segment>FFA15D42-C5D7-E995-136C-91CE3C2825CF</segment>
+<tableSpace>46049283-13F2-3931-4394-FB8EDA1C771B</tableSpace>
+<indexSegment>FFA15D42-C5D7-E995-136C-91CE3C2825CF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

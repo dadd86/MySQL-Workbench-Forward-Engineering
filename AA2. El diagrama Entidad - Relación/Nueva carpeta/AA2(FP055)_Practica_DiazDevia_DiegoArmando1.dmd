@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AA2(FP055)_Practica_DiazDevia_DiegoArmando1" id="9BEE1B4A-833B-9AE7-4C5D-F4882A3F20EF" version="3.5">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:41:31 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmando1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9BEE1B4A-833B-9AE7-4C5D-F4882A3F20EF</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="31FF191A-0BEA-BB41-2C8C-48E5C7C943A3">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BA5641CF-77AC-4EA9-A65C-731E853E0F26">
+<designStoragePath>C:\Users\Admin\Desktop\AA2(FP.055)_Practica_DiazDevia_DiegoArmando\ActividadAA2</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

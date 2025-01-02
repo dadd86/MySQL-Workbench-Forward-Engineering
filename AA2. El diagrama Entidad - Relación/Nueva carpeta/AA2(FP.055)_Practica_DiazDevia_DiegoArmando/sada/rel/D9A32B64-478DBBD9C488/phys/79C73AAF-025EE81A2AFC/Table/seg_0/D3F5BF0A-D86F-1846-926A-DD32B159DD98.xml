@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HISTORICOPLANESSOCIOS" directorySegmentName="seg_0" id="D3F5BF0A-D86F-1846-926A-DD32B159DD98">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<nameChanged>true</nameChanged>
+<schemaObject>E325D238-D1BE-C1EE-5A04-7026795CDDDD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E1C69C38-7295-EAD4-42EF-DC4DE4120880</segment>
+<tableSpace>3550B10A-6E3F-1C31-3075-A0A9EB26D0DE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PLANANTERIOR" id="19324EFD-FCA5-42A1-8B3F-05643764537C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHACAMBIO" id="5ED294C2-3BCA-562D-4AC2-A5710FF91574">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAALTAPLANANTERIOR" id="60C80242-8668-E987-5630-202E8B682F19">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BAJADEFINITIVA" id="798DA5DD-B310-8947-A9DC-B3BDF0FCF12D">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLANACTUAL" id="88709B42-2762-CD15-5B69-484D522A48B7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SOCIO" id="D64D9E34-DECB-E766-08C9-9562B38C6368">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_HISTORICO" id="F39D71A6-9D42-6925-1366-9B1BFCE99BE4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PLAN_ANTERIOR" id="70399E42-59E1-C1C1-4D84-985775068250">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_HISTORICO_SOCIO" id="AB2263BA-4BFE-4119-8920-3C9FC5CDB5E4">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PLAN_ACTUAL" id="FF62FD65-F775-6EB2-3CD1-C0C687627300">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<nameChanged>true</nameChanged>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HISTORICOPLANESSOCIOS_PK" id="A1CD05F1-2B64-4BDC-E9D1-BDDA57E0BF9C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-05 19:45:48 UTC</createdTime>
+<ownerDesignName>sada</ownerDesignName>
+<nameChanged>true</nameChanged>
+<schemaObject>E325D238-D1BE-C1EE-5A04-7026795CDDDD</schemaObject>
+<segment>4FE6EC95-AB2D-504B-C69E-F9B1E89E6528</segment>
+<tableSpace>3550B10A-6E3F-1C31-3075-A0A9EB26D0DE</tableSpace>
+<indexSegment>4FE6EC95-AB2D-504B-C69E-F9B1E89E6528</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

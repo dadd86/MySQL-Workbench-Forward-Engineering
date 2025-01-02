@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="HR - SubView_5" id="D98C63CA-67ED-953B-E85E-A638844F7A9D">
+<createdBy>Admin</createdBy>
+<modifiedBy>Admin</modifiedBy>
+<createdTime>2023-11-06 16:43:09 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<generatorId>0EB65B0D-1D10-C353-F561-D5CF5DB98634</generatorId>
+<importedid>0EB65B0D-1D10-C353-F561-D5CF5DB98634</importedid>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="780CD25F-A431-EF36-21EC-90EF24B80F4E" otype="Table" vid="33940F1A-5E0E-0BD2-8A8E-335F8414FDB3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="291" height="144"/>
+</OView>
+</objectViews>
+</Diagram>

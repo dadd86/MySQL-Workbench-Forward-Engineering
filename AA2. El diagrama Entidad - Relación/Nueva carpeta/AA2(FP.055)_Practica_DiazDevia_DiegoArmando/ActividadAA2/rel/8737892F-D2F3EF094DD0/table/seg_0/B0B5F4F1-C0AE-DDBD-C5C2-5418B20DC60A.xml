@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0B5F4F1-C0AE-DDBD-C5C2-5418B20DC60A" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="SEGUIMIENTO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>48F7BD1B-7CBD-632B-5A96-C6D52D681CD2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDSEGUIMIENTO" id="326341FA-22F8-80E5-65D6-6E373AD788F0">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>BF7C2462-E2E8-1AFE-DCA3-84B552D924A6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDSOCIO" id="AFB950DD-B1F3-7C13-EF7E-4A2225750F89">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>2D0D6FB3-13B3-EC62-E960-0FB6D16EFCEA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D0FDE6D-7850-F43C-74B8-038EFD014C33" referredColumn="3A0B26DA-6AB7-2E69-FE3E-0CE2A63A2E17"/>
+</associations>
+</Column>
+<Column name="FECHAACTIVIDAD" id="44783C26-38EB-1003-D392-3D7CE3C25269">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>46409D7C-C73D-CA3E-A41E-4FDF0B19FE0A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTAOBTENIDA" id="1B73493A-1F41-6A9D-C944-A48586E533C9">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>F977DC63-47F7-8771-3346-5C91B8587E20</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D60D99AC-047E-939C-A1C1-20BB0211324F" schemaObject="D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D" name="SEGUIMIENTO_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<importedID>4C860D1D-EE7E-23AC-64A6-CF4787131093</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="326341FA-22F8-80E5-65D6-6E373AD788F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8DE8379-DCAF-8BAA-4DA6-9263742B4225" name="FK_SEGUIMIENTO_SOCIO">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:38:57 UTC</createdTime>
+<ownerDesignName>ActividadAA2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFB950DD-B1F3-7C13-EF7E-4A2225750F89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

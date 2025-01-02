@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PROFESORES" directorySegmentName="seg_0" id="A6DBEFAB-EA16-E55E-DEED-6F7A800BCF0C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:18 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<schemaObject>D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C9F72971-A3A6-C9CE-6E13-C2BFBB806326</segment>
+<tableSpace>46049283-13F2-3931-4394-FB8EDA1C771B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FORMACION" id="0064A7A5-6D2B-0DE6-61AD-AA040B447EEA">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:18 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO2" id="09BB97D4-35D4-FAF0-1EE6-1C337995DE2C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:18 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO1" id="216FB9C5-5735-D02E-4C6F-652500B9C336">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:18 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="5CEE5DD2-0DFC-C50F-0A57-4D9CC90FF97C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:18 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHANACIMIENTO" id="5F6635F2-13BF-5F9F-8E00-6D7CC627790F">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:18 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PROFESOR" id="F153CBAF-F85C-119A-32B2-EEF9D3082ED7">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:18 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROFESORES_PK" id="06D78670-A3D8-92AC-2992-F5085174EB8C">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:40:18 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<schemaObject>D50DCCE6-854C-DCF1-4CEF-BBBEA5E6AF1D</schemaObject>
+<segment>FFA15D42-C5D7-E995-136C-91CE3C2825CF</segment>
+<tableSpace>46049283-13F2-3931-4394-FB8EDA1C771B</tableSpace>
+<indexSegment>FFA15D42-C5D7-E995-136C-91CE3C2825CF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

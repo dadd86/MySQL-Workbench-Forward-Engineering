@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_CHECK_OVERLAP" directorySegmentName="seg_0" id="28F789A9-8930-E100-CCAB-A73B68C4899E">
+<createdBy>Admin</createdBy>
+<createdTime>2023-11-06 16:39:54 UTC</createdTime>
+<ownerDesignName>AA2(FP055)_Practica_DiazDevia_DiegoArmandos</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[DECLARE
+    v_count INT;
+    v_duracion INT;
+BEGIN
+    -- Se obtiene la duración de la sesión de la tabla Actividades para el ID de actividad correspondiente
+    SELECT DuracionSesion INTO v_duracion FROM Actividades WHERE IdActividad = :NEW.IdActividad;
+
+    -- Se calcula si existen registros que representen un solapamiento con el nuevo horario
+    SELECT COUNT(*)
+    INTO v_count
+    FROM Horarios h
+    WHERE h.Sala = :NEW.Sala
+    AND h.Fecha = :NEW.Fecha
+    AND h.IdHorario != :NEW.IdHorario -- Se excluye el horario actual en caso de actualización
+    AND NOT (
+        TO_DATE(TO_CHAR(h.Fecha, 'YYYY-MM-DD') || ' ' || h.Hora, 'YYYY-MM-DD HH24:MI') >= TO_DATE(TO_CHAR(:NEW.Fecha, 'YYYY-MM-DD') || ' ' || :NEW.Hora, 'YYYY-MM-DD HH24:MI') + NUMTODSINTERVAL(v_duracion, 'MINUTE')
+        OR
+        TO_DATE(TO_CHAR(h.Fecha, 'YYYY-MM-DD') || ' ' || h.Hora, 'YYYY-MM-DD HH24:MI') + NUMTODSINTERVAL((SELECT DuracionSesion FROM Actividades WHERE IdActividad = h.IdActividad), 'MINUTE') <= TO_DATE(TO_CHAR(:NEW.Fecha, 'YYYY-MM-DD') || ' ' || :NEW.Hora, 'YYYY-MM-DD HH24:MI')
+    );
+
+    -- Si se encontró al menos un registro que se solape, lanzar un error
+    IF v_count > 0 THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Solapamiento de horario en la misma sala.');
+    END IF;
+END;
+
+
+/*--------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+
+
+/*En esta seccion hacemos un disparador para que la tabla histrial se actalice si un 
+ID_Plan seda de baja definitivamente con el valor NULL*/
+CREATE OR REPLACE TRIGGER trg_after_plan_drop
+AFTER UPDATE OF ID_Plan ON Socios
+FOR EACH ROW
+WHEN (OLD.ID_Plan IS NOT NULL AND NEW.ID_Plan IS NULL)
+BEGIN
+    INSERT INTO HistoricoPlanesSocios (
+        ID_Historico, ID_Socio, FechaCambio, PlanAnterior, PlanActual, FechaAltaPlanAnterior, BajaDefinitiva
+    ) VALUES (
+        historico_seq.NEXTVAL, :OLD.ID_Socio, SYSDATE, :OLD.ID_Plan, NULL, :OLD.FechaAlta, 'S'
+    );
+END;
+
+/*------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+/*Secuencia para crear el ID_Socio automaticamente por sistema.
+CREATE SEQUENCE es para crear la secuencia con el nombre socio_seq
+START WITH 1 indica que la secuencia comienza siempre con el valor 1*/
+CREATE SEQUENCE socio_seq START WITH 1;                                         
+CREATE OR REPLACE TRIGGER Socios_before_insert                                  --Crea o reemplaza un disparador existente llamado Socios_before_insert
+BEFORE INSERT ON Socios                                                         --Especifica que el disparador se ejecute antes de la operacion de insercion en la tabla SOCIOS
+FOR EACH ROW                                                                    --Indica que el disparador se ejecutara sobre cada linea que se inserte
+BEGIN
+    SELECT socio_seq.NEXTVAL INTO :new.ID_Socio FROM dual;                      -- Selecciona el siguiente valor de la secuencia 'socio_seq' y lo asigna a 'ID_Socio' de la nueva fila
+                                                                                -- ':new' es un pseudoregistro que representa la nueva fila que se está insertando
+END;
+
+/*------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+CREATE SEQUENCE historico_seq START WITH 1;
+
+/*Esta seccion es un disparador para que la tabla de historial se actualice automaticamente 
+cada vez que hay cambion en el ID_PLAN de la tabla de socios*/
+CREATE OR REPLACE TRIGGER trg_after_plan_change
+AFTER UPDATE OF ID_Plan ON Socios
+FOR EACH ROW
+WHEN (OLD.ID_Plan IS NOT NULL AND NEW.ID_Plan IS NOT NULL AND OLD.ID_Plan <> NEW.ID_Plan)
+BEGIN
+    INSERT INTO HistoricoPlanesSocios (
+        ID_Historico, ID_Socio, FechaCambio, PlanAnterior, PlanActual, FechaAltaPlanAnterior, BajaDefinitiva
+    ) VALUES (
+        historico_seq.NEXTVAL, :OLD.ID_Socio, SYSDATE, :OLD.ID_Plan, :NEW.ID_Plan, :OLD.FechaAlta, 'N'
+    );
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>4A41A474-80E8-54A7-FAB3-A7876D20E06A</owner>
+<table>7F7E21BF-B9EA-AF6C-816D-C0F657048165</table>
+</TriggerOraclev10g>
